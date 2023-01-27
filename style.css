@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Amarelo #ffc849 e roxo 7b68ee*/
+
+body {
+	font-family: 'Montserrat', sans-serif;	
+}
+header {
+	background:#ffc849 ;
+	border-radius: 0 0 30px 30px;
+	height: 100px;
+}
+
+.logo-cabecalho{
+	position:absolute;
+	margin-top: 25px;
+	margin-left: 40px;
+	width: 2.5%
+}
+
+h1{
+	text-transform: uppercase;
+	padding-top: 35px;
+	text-align: center;
+	color:#875FFF;
+	font-size: 40px;
+	font-weight: 700;	
+}
+
+main{
+	display: flex;
+	margin-bottom: 50px;
+	margin-left: 80px;
+}
+
+.encriptador {
+	resize: none;
+	border: 2px solid #875FFF;
+	color: #875FFF;
+	margin-top: 150px;
+	margin-left: 80px;
+	border-radius:24px;
+	padding: 10px;
+	text-transform: lowercase;
+	
+}
+::placeholder {color:#875FFF;
+font-size: 20px;}
+
+.encriptador:focus{
+	outline: none;
+	border-color: #ffc849;
+}
+
+.mensagem{
+	resize: none;
+	background: white;
+	background-image:url("images/moça-lupa.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	border: 2px solid #875FFF;
+	border-radius:24px;
+	color: #875FFF;
+	margin-left: 300px;
+	margin-top: 35px;
+	padding-left: 70px;
+	outline:none;
+	position:absolute;
+	background-position: bottom;
+	
+}
+
+.mensagem:focus{
+	outline-color: #ffc849;
+}
+
+.botoes{
+	display: flex;
+	margin-top: 18px;
+	padding: 10px;
+	margin-left: 120px
+}
+.criptografar{
+	background: #ffc849;
+	border-radius: 30px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	height: 60px;
+	width: 200px;
+	border: none;
+
+}
+.criptografar:hover{
+	transform: scale(1.1);
+	background: #875FFF;
+	border-radius: 30px;
+	color: white;
+}
+	
+.descriptografar{
+	background: #ffc849;
+	border-radius: 30px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	height: 60px;
+	width: 200px;
+	border: none;
+	margin-left: 20px
+
+}
+.descriptografar:hover{
+	transform: scale(1.1);
+	background: #875FFF;
+	border-radius: 30px;
+	color: white;
+}
+
+.copiar{
+	background: #ffc849;
+	border-radius: 30px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	height: 40px;
+	width: 150px;
+	border: none;
+	margin-left: 320px;
+	margin-top: 450px;
+
+}
+.copiar:hover{
+	transform: scale(1.1);
+	background: #875FFF;
+	border-radius: 30px;
+	color: white;
+}
+h6{
+	font-size: 12px;
+	font-weight: 500;
+	margin-left: 200px;
+	padding-top: 10px;
+}
+
+footer{
+	text-align: center;
+	margin-bottom: 30px;
+}
