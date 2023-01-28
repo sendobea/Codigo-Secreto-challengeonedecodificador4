@@ -140,6 +140,29 @@ font-size: 20px;}
 	border-radius: 30px;
 	color: white;
 }
+
+.limpar{
+	background: #ffc849;
+	border-radius:30px;
+	display: inline;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	height: 40px;
+	width: 150px;
+	border: none;
+	margin-left: 330px;
+	margin-top: 5px;
+
+}
+.limpar:hover{
+	transform: scale(1.1);
+	background: #875FFF;
+	border-radius: 30px;
+	color: white;
+}
+
 h6{
 	font-size: 12px;
 	font-weight: 500;
