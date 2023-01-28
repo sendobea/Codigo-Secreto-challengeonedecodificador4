@@ -50,4 +50,12 @@ function desencriptar(stringDesencriptada) {
 
     return stringDesencriptada;
 }
-
+const copyButton = document.getElementById('copy');
+   
+function botaocopiar () {
+	copyButton.addEventListener('click', ()=> {
+    mensagem.select();
+    document.execCommand('copy');
+    }
+);
+	}
