@@ -1,5 +1,4 @@
-<meta charset="utf-8">
-const encriptador = document.querySelector(".encriptador");
+const textArea = document.querySelector(".encriptador");
 const mensagem = document.querySelector(".mensagem");
 
 // As "chaves" de criptografia que utilizaremos são:
@@ -10,9 +9,9 @@ const mensagem = document.querySelector(".mensagem");
 // `A letra "u" é convertida para "ufat"`
 
 function botaoencriptar() {
-    const textoEncriptado = encriptar(encriptador.value);
+    const textoEncriptado = encriptar(textArea.value);
     mensagem.value = textoEncriptado;
-    encriptador.value = "";
+    textArea.value = "";
 }
 
 
@@ -31,14 +30,14 @@ function encriptar(stringEncriptada) {
 }
 
 
-function botaodesencriptar() {
-    const textoDesencriptado = desencriptar(encriptador.value);
+function botaodesencriptar(){
+    const textoDesencriptado = desencriptar(textArea.value);
     mensagem.value = textoDesencriptado;
-    encriptador.value = "";
+    textArea.value = "";
 }
 
 
-function desencriptar()(stringDesencriptada) {
+function desencriptar(stringDesencriptada) {
 
     let matrizCodigo = [["e" , "enter"] , ["i" , "imes"], ["a" ,"ai"] , ["o" , "ober"], ["u" , "ufat"]];
     stringDesencriptada = stringDesencriptada.toLowerCase();
